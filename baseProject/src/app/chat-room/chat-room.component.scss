@@ -1,0 +1,27 @@
+mat-grid-tile {
+    background: white;
+  }
+
+  mat-grid-tile {
+    padding-top: 70px !important;
+  }
+
+  .mat-grid-tile-content {
+    display: flex !important;
+    justify-content: start;
+  }
+
+  .mat-grid-list {
+    padding-bottom: 0px !important;
+  }
+
+  :host ::ng-deep .mat-grid-tile-content {
+    display: flex;
+    justify-content: start;
+}
+
+.imgSize {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
