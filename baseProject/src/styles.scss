@@ -36,6 +36,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     justify-content: space-around;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 .text-align-center {
     text-align: center;
+}
+
+.ptr-24 {
+    padding:14px 24px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.bg-white {
+    background-color: white;
 }
